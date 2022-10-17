@@ -1,6 +1,6 @@
 # Hyperlight
 
-[![Clojars Project](https://img.shields.io/clojars/v/hyperlight.svg)](https://clojars.org/hyperlight)
+[![Clojars Project](https://img.shields.io/clojars/v/co.insilica/hyperlight.svg)](https://clojars.org/co.insilica/hyperlight)
 
 A performance-focused HTTP reverse proxy written with [Aleph](http://aleph.io).
 
