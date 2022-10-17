@@ -1,7 +1,5 @@
 .*
-pom.xml
-pom.xml.asc
-*jar
+*.jar
 /lib/
 /classes/
 /target/
