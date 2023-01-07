@@ -1,6 +1,6 @@
 {:deps
  {org.clojure/clojure {:mvn/version "1.9.0"}
-  aleph/aleph {:mvn/version "0.5.0"}}
+  aleph/aleph {:mvn/version "0.6.0"}}
  :aliases
  {:antq
   {:deps
@@ -8,9 +8,9 @@
     org.slf4j/slf4j-nop {:mvn/version "2.0.6"}}
    :main-opts ["-m" "antq.core"]}
   :build {:deps {io.github.seancorfield/build-clj
-                 {:git/tag "v0.8.3" :git/sha "7ac1f8d"}}
+                 {:git/tag "v0.9.0" :git/sha "d758807"}}
           :ns-default build}
   :test {:extra-deps
          {criterium/criterium {:mvn/version "0.4.6"}
-          lambdaisland/kaocha {:mvn/version "1.70.1086"}}
+          lambdaisland/kaocha {:mvn/version "1.71.1119"}}
          :main-opts ["-m" "kaocha.runner"]}}}
