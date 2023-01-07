@@ -3,7 +3,7 @@
   (:require [org.corfield.build :as bb]))
 
 (def lib 'co.insilica/hyperlight)
-(def version "0.6.0")
+(def version "1.0.0")
 (defn get-version [opts]
   (str version (when (:snapshot opts) "-SNAPSHOT")))
 
